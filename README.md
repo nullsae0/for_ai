@@ -60,6 +60,15 @@ terser topics or an assistant that's already concise will see smaller gains.
 Net: **built for long sessions with genuinely verbose-prone content** (explanations,
 code, multi-part questions) — not for one-off quick questions.
 
+### What about accuracy?
+
+Spot-checked the same 8-prompt batch for correctness, not just length — same
+working code, same core technical points, nothing dropped that was actually asked
+for. Not a rigorous eval, and only tested on well-known textbook-style problems —
+harder or ambiguous prompts, where a compressed answer is more likely to drop a
+real caveat, haven't been tested yet. Treat this as a promising early sign, not a
+guarantee.
+
 ## Install
 
 Drop `codeopt.md` and `brevity.md` into a folder the assistant reads at session
